@@ -1,11 +1,10 @@
 // router.dart
+import 'package:dailymissions/screens/screens/auth_page.dart';
+import 'package:dailymissions/screens/screens/basescreen.dart';
+import 'package:dailymissions/screens/screens/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:gymtrack/screens/screens/auth_page.dart';
-import 'package:gymtrack/screens/screens/basescreen.dart';
-import 'package:gymtrack/screens/screens/home_page.dart';
-import 'package:gymtrack/screens/screens/login_page.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -19,10 +18,7 @@ class AppRouter {
         path: '/login',
         builder: (context, state) => LoginScreen(),
       ),
-      GoRoute(
-        path: '/home',
-        builder: (context, state) => const HomeScreen(),
-      ),
+    
       GoRoute(
         path: '/basescreen',
       builder: (context, state) => BaseScreen(),

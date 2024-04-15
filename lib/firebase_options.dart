@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCfj-cxECQ3SqSV_pXgnXVQkgC44J0OVAk',
-    appId: '1:456103746725:android:ba13a6c8041c81c4b8414c',
-    messagingSenderId: '456103746725',
-    projectId: 'gymtrackapp-a2e77',
-    storageBucket: 'gymtrackapp-a2e77.appspot.com',
+    apiKey: 'AIzaSyBOVxcMeoJ7wymmMHKGYT3YZi8wEDzHzB0',
+    appId: '1:425174048164:android:82a9da5e9494071e4f7531',
+    messagingSenderId: '425174048164',
+    projectId: 'growbusiness-de809',
+    storageBucket: 'growbusiness-de809.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAA9SfvDrF-Z3PMcs2SGl8FQRzficumLno',
-    appId: '1:456103746725:ios:b1df534468878f2cb8414c',
-    messagingSenderId: '456103746725',
-    projectId: 'gymtrackapp-a2e77',
-    storageBucket: 'gymtrackapp-a2e77.appspot.com',
-    iosBundleId: 'com.example.gymtrack',
+    apiKey: 'AIzaSyAd7ItX8BtEjrcIhcsymiMsmlIykBhakcg',
+    appId: '1:425174048164:ios:08e39d1ab5e2ed944f7531',
+    messagingSenderId: '425174048164',
+    projectId: 'growbusiness-de809',
+    storageBucket: 'growbusiness-de809.appspot.com',
+    iosBundleId: 'com.example.growbusiness',
   );
 }

@@ -1,8 +1,8 @@
+import 'package:dailymissions/config/router/app_router.dart';
+import 'package:dailymissions/config/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gymtrack/config/router/app_router.dart';
-import 'package:gymtrack/config/theme/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 Future<void> main() async {
